@@ -4,7 +4,7 @@
 
 namespace Slot2
     {
-        class Rullemarie
+        class Rull
         {
             static void Main(string[] args)
             {
