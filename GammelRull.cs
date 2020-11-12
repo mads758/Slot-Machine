@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Slot2
 {
-    class Rullemarie
+    class GammelRull
     {
         static void Main(string[] args)
         {
