@@ -8,7 +8,12 @@ namespace Slot2
         {
             static void Main(string[] args)
             {
-          
+            //Setup
+            // Opretter vaiabler til en player bank account samt hvad det koster at spille. Samt en loosingModifier som trækker et beløb fra bank account
+               int Bet = 10;
+               int Credits = 100;
+               int losingModifier = -10;
+                        
             //Vi opretter Vores Ruller Som Strings
                 string[] Rulle1 = { "K", "l", "A", "B", "J", "P" };
 
@@ -57,6 +62,12 @@ namespace Slot2
                 Console.WriteLine(@"  |   |                         |   |");
                 Console.WriteLine(@" _|    \_______________________/    |_");
                 Console.WriteLine(@"(_____________________________________)");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("     ____________     ____________");
+                Console.WriteLine("    |   Price    |   |  Account   |");
+                Console.WriteLine($"    |     {Bet}     |   |    {Credits}     |");
+                Console.WriteLine("    |____________|   |____________|");
                 System.Threading.Thread.Sleep(500);
 
             //Her sætter vi cursor op til gevinst linjen
